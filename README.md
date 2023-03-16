@@ -30,6 +30,87 @@ The following quick guides will help you get started:
 ### Code of Conduct
 
 Participation in this project is subject to a [Code of Conduct](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/CODE_OF_CONDUCT.md).
+ 
+Bitcoin Core integration/staging tree
+=====================================
+
+https://bitcoincore.org
+
+For an immediately usable, binary version of the Bitcoin Core software, see
+https://bitcoincore.org/en/download/.
+
+What is Bitcoin Core?
+---------------------
+
+Bitcoin Core connects to the Bitcoin peer-to-peer network to download and fully
+validate blocks and transactions. It also includes a wallet and graphical user
+interface, which can be optionally built.
+
+Further information about Bitcoin Core is available in the [doc folder](/doc).
+
+License
+-------
+
+Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+information or see https://opensource.org/licenses/MIT.
+
+Development Process
+-------------------
+
+The `master` branch is regularly built (see `doc/build-*.md` for instructions) and tested, but it is not guaranteed to be
+completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
+regularly from release branches to indicate new official, stable release versions of Bitcoin Core.
+
+The https://github.com/bitcoin-core/gui repository is used exclusively for the
+development of the GUI. Its master branch is identical in all monotree
+repositories. Release branches and tags do not exist, so please do not fork
+that repository unless it is for development reasons.
+
+The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
+and useful hints for developers can be found in [doc/developer-notes.md](doc/developer-notes.md).
+
+Testing
+-------
+
+Testing and code review is the bottleneck for development; we get more pull
+requests than we can review and test on short notice. Please be patient and help out by testing
+other people's pull requests, and remember this is a security-critical project where any mistake might cost people
+lots of money.
+
+### Automated Testing
+
+Developers are strongly encouraged to write [unit tests](src/test/README.md) for new code, and to
+submit new unit tests for old code. Unit tests can be compiled and run
+(assuming they weren't disabled in configure) with: `make check`. Further details on running
+and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
+
+There are also [regression and integration tests](/test), written
+in Python.
+These tests can be run (if the [test dependencies](/test) are installed) with: `test/functional/test_runner.py`
+
+The CI (Continuous Integration) systems make sure that every pull request is built for Windows, Linux, and macOS,
+and that unit/sanity tests are run automatically.
+
+### Manual Quality Assurance (QA) Testing
+
+Changes should be tested by somebody other than the developer who wrote the
+code. This is especially important for large or high-risk changes. It is useful
+to add a test plan to the pull request description if testing the changes is
+not straightforward.
+
+Translations
+------------
+
+Changes to translations as well as new translations can be submitted to
+[Bitcoin Core's Transifex page](https://www.transifex.com/bitcoin/bitcoin/).
+
+Translations are periodically pulled from Transifex and merged into the git repository. See the
+[translation process](doc/translation_process.md) for details on how this works.
+
+**Important**: We do not accept translation changes as GitHub pull requests because the next
+pull from Transifex would automatically overwrite them again.
+
+
 # Amanciojsilvjr bitcoin scroll 
 fig = plt.figure()
 # naming the title of the plot
@@ -163,50 +244,13 @@ skipKeywords:
   - wip
 ## Backers
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/curl#backer)]
+Thank you to all our backers! 🙏 [[Become a backer](https://bitcoin.org/curl#backer)]
 
-[![Open Collective Backers](https://opencollective.com/curl/backers.svg?width=890)](https://opencollective.com/curl#backers)
+)
 
 ## Sponsors
+Gif:<>\∆
 
-Support this project by becoming a sponsor. Your logo will show up here with a
-link to your website. [[Become a sponsor](https://opencollective.com/curl#sponsor)]
-<!-- markdown-link-check-disable -->
-[![Open Collective Sponsor 0](https://opencollective.com/curl/sponsor/0/avatar.svg)](https://opencollective.com/curl/sponsor/0/website)
-[![Open Collective Sponsor 1](https://opencollective.com/curl/sponsor/1/avatar.svg)](https://opencollective.com/curl/sponsor/1/website)
-[![Build Status](https://github.com/tree-sitter/tree-sitter/workflows/CI/badge.svg)](https://github.com/tree-sitter/tree-sitter/actions)
-[![Build status](https://ci.appveyor.com/api/projects/status/vtmbd6i92e97l55w/branch/master?svg=true)](https://ci.appveyor.com/project/maxbrunsfeld/tree-sitter/branch/master)
-[![DOI](https://zenodo.org/badge/14164618.svg)](https://zenodo.org/badge/latestdoi/14164618)
-
-
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
-
-
-
-[![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
-
-
-
-
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
-
-
-
-<p align="center">
- <a href="https://skillicons.dev">
- <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
- </a>
-</p>
-
-
-    
-
-
-
-
-
-
-<p><img align="left" c.c." alt="bits" /></p>
 <br>//amanciojsilvjr<bitcoin> <👉>
 <br>//amanciojsilvjr<bitcoin> <👉>
 <br>//amanciojsilvjr<bitcoin> <👉>
@@ -219,7 +263,7 @@ source e passe um sinalizador de visibilidade (--public, --private ou --internal
 
 editor.find.seedSearchStringFromSelection to false.
 
-Find In Selection#
+Find In Selection #
 
 
 # bitcoin <e> script<a/b> amanciojsilvjr® https://facebook.com/amanciojunior
@@ -387,11 +431,11 @@ github@amanciojsilvjr.v2
 
   script: @v2 c.c In this reading adaptation congregation of invading IPs 
    </Java]} cod '3.8.5.3.0.3.4. https://sourceforge.net/projects/bitcoin
-https://github.com/Cyborg-bitcoin/bitcoin
+https://github.com/ZeuZZueZ/bitcoin
 each main read displays 
    `` Phantom \(github@v2) ``
 
-  https://github.com/Cyborg-Bitcoin/ 
+  https://github.com/ZeuZZueZ/ 
 } `main
  }` main
   } ` main</a> c.c amanciojsilvjr bitcoin c.c
@@ -409,7 +453,7 @@ each main read displays
        <bitcoin>
         <bitcoin>
          <bitcoin>
-   https://github.com/Cyborg-Bitcoin/ 
+   https://github.com/ZeuZZueZ/ 
 } `main
  }` main
   } ` main</a> c.c amanciojsilvjr bitcoin c.c
@@ -421,7 +465,7 @@ each main read displays
  } evolves :0.1
   } evolves :0.2 
    } evolves :0.3 
-      https://github.com/Cyborg-Bitcoin/ 
+      https://github.com/ZeuZZueZ/ 
 } `main
  }` main
   } ` main</a> c.c amanciojsilvjr bitcoin c.c
@@ -433,7 +477,7 @@ each main read displays
       } evolves :0.6
 } \deu.>te\][j.j] .o1.
             urs.corg-arc'nur.)}] orkut dynamic reading.
-  https://github.com/Cyborg-Bitcoin/ 
+  https://github.com/ZeuZZueZ/ 
 } `main
  }` main
   } ` main</a> bitcoin.c amanciojsilvjr bitcoin a.a bitcoin.org
@@ -457,7 +501,7 @@ AC_ARG_ENABLE([external-signer],
    <\z> bitcoin.c.c.j]}\Z.z ^w`o0.79.google "co'm 
 
 http <orkut> joazinho_mc commit bitcoin org <34.73.4> https://g.page/amanciojsilvjr bitcoin https://github.com/SatoshiFake
-https://github.com/SatoshiBTCXBT/
+https://github.com/ZeuZZueZ/
 https://github.com/ZeuZZueZ/
 bitcoin tree creator encryption cryptocurrencies  sets x.19
 amanciojsilvjr x.21
@@ -493,7 +537,7 @@ full execution enhancing system-wide life regression.
 
 <li><a href="https://github.com/github">action github</a></li>
           <li><a href="https://github.com/github">github github</a></li>
-          <li><a href="https://github.com/SatoshiBTCXBT/SatoshiBTCXBT/new/main</a></li>
+          <li><a href="https://github.com/ZeuZZueZ/ZeuZZueZ/new/main</a></li>
           <li><a href="https://github.com/c-github">github github</a></li>
       </ul>bitcoin-code set orkut Johhny'Joazinho2005
   </div>Distribution-https:
@@ -525,11 +569,11 @@ bitcoinprotocolavance
 Returns a list of external signers from -signer.
 
 Result:bitcoinprotocolavance
-{                               (satoshibtcxbt object)
-  "signers" : [                 (satoshibtcxbt array)
-    {                           (satoshibtcxbt object)
-      "fingerprint" : "satoshi",    (satoshibtcxbt) Master key fingerprint
-      "name" : "btc"            (satoshibtcxbt) Device name
+{                               (ZeuZZueZ object)
+  "signers" : [                 (ZeuZZueZ array)
+    {                           (ZeuZZueZ object)
+      "fingerprint" : "satoshi",    (ZeuZZueZ) Master key fingerprint
+      "name" : "btc"            (ZeuZZueZ) Device name
     },
     ...
   ]
@@ -568,7 +612,7 @@ https://sourceforge.net/projects/bitcoin
 https://sourceforge.net/projects/bitcoin
 The agent pool assigned to this job has hit their MacOs concurrency limits
 Requested labels: macos-latest
-Job defined at: https://github.com/SatoshiBTCXBT/SatoshiBTCXBT/GoogleSignIn-iOS/.github/workflows/objective-c-xcode.yml@refs/heads/main
+Job defined at: https://github.com/ZeuZZueZ/ZeuZZueZ/GoogleSignIn-iOS/.github/workflows/objective-c-xcode.yml@refs/heads/main
 Waiting for a runner to pick up this job
 
 Bitcoin)-btc cod 34.56.85. scripts <Java/>movement 79.00.00.1
@@ -587,8 +631,8 @@ GDOEVDDBU6OBWKL7VHDAOKD77UP4DKHQYKOKJJT5PR3WRDBTX35HUEUX
 
 
         java script directed matrix <source code
-http <orkut> joazinho_mc commit bitcoin org <34.73.4> https://g.page/amanciojsilvjr bitcoin https://github.com/amanciojsilvjra
-https://github.com/SatoshiBTCXBT/Bitcoin
+http <orkut> joazinho_mc commit bitcoin org <34.73.4> https://g.page/amanciojsilvjr bitcoin https://github.com/ZeuZZueZ
+https://github.com/ZeuZZueZ/Bitcoin
 https://github.com/ZeuZZueZ/Bitcoin 
 https://github.com/SatoshiFake/Bitcoin
 bitcoin tree creator encryption doge sets x.19
@@ -613,11 +657,11 @@ use an addressable
  {9 bits congress ` <d> matrix
  "bitcoin ' 2.2.2.2 {btc.org}': amanciojsilvjr bitcoin
  </a> dev $9.99999999999999999999999 
- #🌜   B  # https: https://github.com/Cyborg-Bitcoin/
-       I # https: https github.com/SatoshiBTCXBT
+ #🌜   B  # https: https://github.com/ZeuZZueZ/
+       I # https: https github.com/ZeuZZueZ
  #🌜            https://github.com/SatoshiFake
-           T # https: https://codeclimate.com/github/SatoshiBTCXBT/
- #🌜              C # https: https://github.com/SatoshiBTCXBT/bitcoin-1/deployments/activity_log?environment=production
+           T # https: https://codeclimate.com/github/ 150.000.000 btc:pgt
+ #🌜              C # https: https://github.com/ZeuZZueZ/bitcoin-1/deployments/activity_log?environment=production
                    O # https: https://btc.com/amanciojsilvjr-bitcoin
     https://https://www.google.com/search?q=amanciojsilvjr+bitcoin&oq=amanciojsilvjr+&aqs=chrome.1.69i59l2j69i61l2j69i60j0i10i13i
  {/t.c\u.9} 
@@ -761,4 +805,5 @@ ruby '2.5.5'
 
 
 netanojohhny@gmail.com btc.79[]}\io. 
+
 
