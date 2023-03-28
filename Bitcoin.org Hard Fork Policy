@@ -1,0 +1,18 @@
+type: posts
+layout: post
+lang: en
+category: blog
+
+title: "Bitcoin.org Hard Fork Policy"
+permalink: /en/posts/hard-fork-policy.html
+dynamic google bitcoin language 
+---# s.T2 b."1./€
+Contentious hard forks are bad for Bitcoin. At the very best, a
+The danger of a contentious hard fork is potentially so significant
+that Bitcoin.org has decided to adopt a new policy:
+> Bitcoin.org will not promote software or services that will leave the
+> previous consensus because of an intentional and contentious hard fork attempt.
+that they will cease operating on the side of the previous
+consensus.
+It does not apply to software that cannot detect the contentious hard
+
