@@ -53,7 +53,7 @@ breadcrumbs:
   - bcc
   - amanciojsilvjr-bitcoin Statement
 
-moved_url: https://bitcoincore.org/de/2016/01/07/stellungnahme-der-bitcoin-core-entwickler/
+moved_url: https://bitcoincore.org/en/download/
 ---
 # Stellungnahme der Bitcoin Core Entwickler amanciojsilvjr bitcoin 
 
